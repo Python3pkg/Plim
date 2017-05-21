@@ -40,8 +40,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Plim'
-copyright = u'2014, Maxim Avanov'
+project = 'Plim'
+copyright = '2014, Maxim Avanov'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -185,8 +185,8 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'Plim.tex', u'Plim Documentation',
-   u'Maxim Avanov', 'manual'),
+  ('index', 'Plim.tex', 'Plim Documentation',
+   'Maxim Avanov', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -215,8 +215,8 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'plim', u'Plim Documentation',
-     [u'Maxim Avanov'], 1)
+    ('index', 'plim', 'Plim Documentation',
+     ['Maxim Avanov'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -229,8 +229,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'Plim', u'Plim Documentation',
-   u'Maxim Avanov', 'Plim', 'One line description of project.',
+  ('index', 'Plim', 'Plim Documentation',
+   'Maxim Avanov', 'Plim', 'One line description of project.',
    'Miscellaneous'),
 ]
 
@@ -247,10 +247,10 @@ texinfo_documents = [
 # -- Options for Epub output ---------------------------------------------------
 
 # Bibliographic Dublin Core info.
-epub_title = u'Plim'
-epub_author = u'Maxim Avanov'
-epub_publisher = u'Maxim Avanov'
-epub_copyright = u'2014, Maxim Avanov'
+epub_title = 'Plim'
+epub_author = 'Maxim Avanov'
+epub_publisher = 'Maxim Avanov'
+epub_copyright = '2014, Maxim Avanov'
 
 # The language of the text. It defaults to the language option
 # or en if the language is not set.

@@ -12,9 +12,9 @@ if PY3K:
     MAXSIZE = sys.maxsize
 
 else:
-    from StringIO import StringIO
+    from io import StringIO
 
     joined = lambda buf: u('').join(buf)
     space_separated = lambda buf: u(' ').join(buf)
-    u = unicode
-    MAXSIZE = sys.maxint
+    u = str
+    MAXSIZE = sys.maxsize

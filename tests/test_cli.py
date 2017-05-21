@@ -20,7 +20,7 @@ class TestCLI(TestCaseBase):
             from io import BytesIO
             self.stdout = BytesIO()
         else:
-            from StringIO import StringIO
+            from io import StringIO
             self.stdout = StringIO()
 
     def test_cli_mako_output(self):

@@ -120,10 +120,10 @@ class TestLexerFunctions(TestCaseBase):
         self.assertNotEqual(result, str_)
         self.assertEqual(str_[:len(result)], '.test-${test.test + "${{\'test\':1}}"}${test}test')
 
-        str_ = u'.абв.где'
+        str_ = '.абв.где'
         result, _, __ = l.extract_identifier(str_, source, '.')
         self.assertNotEqual(result, str_)
-        self.assertEqual(str_[:len(result)], u'.абв')
+        self.assertEqual(str_[:len(result)], '.абв')
 
 
     def test_parse_tag_attribute(self):

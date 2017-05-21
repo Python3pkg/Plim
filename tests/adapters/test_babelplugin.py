@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from __future__ import unicode_literals
+
 from plim.adapters.babelplugin import extract
 from plim.util import StringIO
 from .. import TestCaseBase
